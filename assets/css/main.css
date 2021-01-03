@@ -2667,6 +2667,12 @@ input, select, textarea {
 		.feature.left {
 			text-align: left;
 		}
+			.feature.left img{
+
+		object-fit: scale-down;
+				max-width: 100%;
+				
+			}
 
 			.feature.left .image {
 				float: left;
