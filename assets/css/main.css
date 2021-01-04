@@ -2671,7 +2671,7 @@ input, select, textarea {
 
 		object-fit: scale-down;
 				max-width: 100%;
-				
+
 			}
 
 			.feature.left .image {
@@ -2695,6 +2695,11 @@ input, select, textarea {
 				float: right;
 			}
 
+			.feature.right img {
+				object-fit: scale-down;
+						max-width: 100%;
+			}
+			
 				.feature.right .image img {
 					left: 0;
 					top: 0;
