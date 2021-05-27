@@ -2186,11 +2186,12 @@ input, select, textarea {
 			opacity: 0.2;
 			position: absolute;
 			top: 0;
-			width: 100%;
+			width: 100%
 		}
 
 		.image img {
 			display: block;
+			max-height: 100%;
 		}
 
 		.image.fit {
@@ -2699,7 +2700,7 @@ input, select, textarea {
 				object-fit: scale-down;
 						max-width: 100%;
 			}
-			
+
 				.feature.right .image img {
 					left: 0;
 					top: 0;
